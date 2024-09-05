@@ -1,0 +1,734 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+footer a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+}
+.fixed-top {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand .title {
+    margin-top: 12px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar-brand .title h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    position: relative;
+    bottom: 15px;
+}
+.navbar-brand .title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.navbar .container-fluid .logos {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(193, 194, 199);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.navbar .container-fluid .logos img {
+    margin-top: 5px;
+    max-width: 80%;
+    height: 80%;
+}
+.navbar-nav .nav-item a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+.maxWidth {
+    width: 100%;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#slideAwal {
+    margin-top: 20px;
+    width: 85%;
+    height: 450px;
+}
+#slideAwal .carousel-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid;
+}
+#slideAwal .carousel-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+}
+.button-awal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 240px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.button-awal button {
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    margin-left: 39%;
+    margin-right: 39%;
+}
+.button-awal button i {
+    font-size: 18px;
+    color: white;
+}
+#awal .carousel:hover .button-awal {
+    opacity: 1;
+}
+
+.fullWidth {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+.boxSize {
+    background: rgb(49, 30, 111);
+    max-width: 75%;
+    border-radius: 10px;
+    border: 0.5px solid;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.307);
+}
+.boxSize .title {
+    width: 100%;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(18, 93, 255);
+}
+.boxSize .title .titles {
+    font-size: 20px;
+    font-weight: 550;
+}
+.boxSize .title .subtitle {
+    margin-top: -20px;
+}
+.boxSize .content {
+    max-width: 95%;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 0%, 100%);
+    
+}
+.boxSize .buttons {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.boxSize .buttons a {
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(252, 81, 133);
+    color: white;
+    border-radius: 10px;
+}
+.boxSize .buttons a:hover {
+    background-color: rgb(230, 54, 107);
+}
+
+/* RATING START */
+.Rekomen {
+    margin-top: 40px;
+    width: 90%;
+    height: 200px;
+}
+.Rekomen .title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(81, 81, 245);
+}
+.Rekomen .title i {
+    font-size: 25px;
+    margin-right: 5px;
+}
+.Rekomen .title span {
+    color: rgb(19, 19, 245);
+    font-weight: 550;
+}
+.Rekomen .content ul{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.Rekomen .content span{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 10px;
+    font-size: 18px;
+}
+.Rekomen .content p {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    color: rgb(0, 176, 144);
+}
+.Rekomen .content h6 {
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.Rekomen .content li strong {
+    font-weight: bold;
+}
+/* RATING END */
+
+/* Card Sell START*/
+.fullWidthCards {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleCards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleCards h6 {
+    letter-spacing: 2px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(19, 19, 245);
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titleCards p {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.cardSell {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cards {
+    background-color: white;
+    display: grid;
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    padding: 25px;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cards .title h6{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: rgb(17, 38, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.cards .title p {
+    font-size: 13px;
+    opacity: 0.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 13px;
+}
+.cards .price .harga {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: line-through;
+    opacity: 0.7;
+    margin-right: 3px;
+}
+.cards .price .diskon{
+    font-size: 15px;
+    background-color: rgb(18, 97, 254);
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-weight: 550;
+    text-decoration: none;
+}
+.cards .price .hargaunit {
+    font-size: 40px;
+    color: rgb(31, 31, 238);
+    opacity: 1;
+}
+.cards .price h6 {
+    width: 100%;
+    color: rgb(31, 31, 238);
+    opacity: 0.9;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.cards .price button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: white;
+    border: 2px solid rgb(37, 6, 151);
+    color: rgb(144, 0, 255);
+    font-weight: 550;
+}
+.cards .price button:hover {
+    background-color: rgba(21, 107, 255, 0.253);
+}
+.cards .price button:not(:last-child){
+    margin-bottom: 10px;
+}
+.cards .price h4 {
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.cards .fitur {
+    width: 100%;
+    border-top: 1px solid;
+    padding-top: 30px;
+}
+.cards .fitur i {
+    color: rgb(0, 186, 0);
+    font-size: 15px;
+    padding-right: 5px;
+    font-weight: 900;
+    text-shadow: 0px 1px 0 rgb(0, 186, 0), 0px -1px 0 rgb(0, 186, 0);
+}
+.cards .fitur p {
+    font-size: 15px;
+    font-weight: 450;
+    margin-bottom: 8px;
+}
+.cards a {
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 550;
+    color: rgb(41, 41, 240);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cards i {
+    display: inline;
+    text-shadow: 0px 1px 0 rgba(41, 41, 240, 0.495), 0px -1px 0 rgb(41, 41, 240, 0.495);
+    padding-left: 6px;
+    padding-top: 5px;
+}
+.fullWidthCards .akhir {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgba(41, 41, 240);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+}
+/* Card Sell END*/
+
+/* Migrasi Start */
+.fullWidthMigrasi {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    background-color: rgb(31, 19, 70);
+    color: white;
+    flex-direction: column;
+}
+.fullWidthMigrasi .Migrasi {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.fullWidthMigrasi .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.fullWidthMigrasi .title h4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 20px; 
+}
+.fullWidthMigrasi .title p {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.Migrasi .cardsM {
+    background-color: rgb(47, 28, 106);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+.Migrasi .cardsM .icon i{
+    background-color: rgb(103, 61, 229);
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.Migrasi .cardsM .titles h5{
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 0.8px;
+}
+.Migrasi .cardsM .content {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.fullWidthMigrasi .button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.fullWidthMigrasi .button a {
+    background-color: rgb(252, 81, 133);
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.fullWidthMigrasi .button a:hover {
+    background-color: rgb(244, 48, 107);
+}
+/* Migrasi End */
+
+/* Rewiew Start */
+#ReviewVideo .button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+#ReviewVideo .prevbtn {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 20px;
+    color: rgb(103, 61, 230);
+    border: none;
+    background-color: rgb(226, 227, 237);
+}
+#ReviewVideo .nextbtn {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: rgb(103, 61, 230);
+    border: none;
+    background-color: rgb(226, 227, 237);
+}
+#ReviewVideo .button button:hover {
+    background-color: rgb(209, 210, 223);
+}
+#ReviewVideo {
+    width: 90%;
+    margin-top: 50px;
+    height: 100%;
+    position: relative;
+    left: 5%;
+    margin-bottom: 20px;
+}
+#Reviewvideo .fullWidthVideo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fullWidthVideo .twoSide {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    gap: 25px;
+}
+.fullWidthVideo .twoSide .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fullWidthVideo .twoSide .right .container {
+    width: 80%;
+    height: 450px;
+    margin-left: 20%;
+}
+.fullWidthVideo .twoSide .right .container iframe {
+    border-radius: 30px;
+}
+.fullWidthVideo .twoSide .left {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fullWidthVideo .twoSide .left .title i {
+    background-color: rgb(244, 245, 255);
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(103, 61, 230);
+}
+.fullWidthVideo .twoSide .left .title h5 {
+    color: rgb(47, 28, 106);
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.fullWidthVideo .twoSide .left .title span {
+    color: rgb(103, 61, 230);
+}
+.fullWidthVideo .twoSide .left .title a {
+    text-decoration: none;
+    color: rgb(103, 61, 230);
+    font-size: 12.5px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+}
+.fullWidthVideo .twoSide .left .nametag {
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.218);
+}
+.fullWidthVideo .twoSide .left .nametag h5{
+    margin-top: 18px;
+    color: rgb(47, 28, 106);
+    font-size: 18px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+}
+.fullWidthVideo .twoSide .left .nametag p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(47, 28, 106);
+    letter-spacing: 0.8px;
+}
+/* Review End */
+
+/* Try Start */
+.fullWidthSecurity {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+.fullWidthSecurity .twoSide {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+}
+.fullWidthSecurity .twoSide .right {
+    width: 85%;
+    margin-left: 15%;
+}
+.fullWidthSecurity .twoSide .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fullWidthSecurity .twoSide .left h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+}
+.fullWidthSecurity .twoSide .left i {
+    color: rgb(0, 186, 0);
+    font-size: 15px;
+    padding-right: 5px;
+    font-weight: 900;
+    text-shadow: 0px 1px 0 rgb(0, 186, 0), 0px -1px 0 rgb(0, 186, 0);
+}
+.fullWidthSecurity .twoSide .left p {
+    font-size: 18px;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+.fullWidthMigrasi .buttons {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.fullWidthMigrasi .buttons a {
+    background-color: rgb(252, 81, 133);
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.fullWidthMigrasi .buttons a:hover {
+    background-color: rgb(244, 48, 107);
+}
+/* Try End */
+.swipers,
+.swiper-sell {
+    display: none;
+}
+.swiper-container {
+    width: 100%;
+    overflow: hidden; /* Menghindari konten keluar dari batas kontainer */
+}
+.swiper-wrapper {
+    display: flex; /* Pastikan wrapper menggunakan flex untuk Swiper */
+    transition: transform 0.3s ease-in-out; /* Transisi untuk geser */
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; /* Pastikan slide memiliki lebar yang sesuai */
+}
+/* Responsive START */
+@media (max-width: 1075px) {
+    #Rekomen {
+        display: none;
+    }
+    .cardSell {
+        display: none;
+    }
+    .Rekomen {
+        width: 100%;
+    }
+    .swiper-sell,
+    .swipers {
+        display: block;
+        margin-left: 2.5%;
+        width: 95%;
+        max-width: 100%;
+    }
+    .swiper-slide {
+        width: auto;
+    }
+}
+
+@media (max-width: 800px){
+    #slideAwal {
+        width: 95%;
+        height: 300px;
+    }
+    .button-awal {
+        bottom: 170px;
+    }
+    .boxSize {
+        max-width: 90%;
+    }
+    .fullWidthMigrasi .Migrasi {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #ReviewVideo {
+        width: 95%;
+        left: 0;
+    }
+    .fullWidthVideo .twoSide {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .fullWidthVideo .twoSide .right .container {
+        margin-left: 10%;
+    }
+    .fullWidthSecurity .twoSide {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .fullWidthSecurity .twoSide .right {
+        margin-left: 7%;
+    }
+    .fullWidthSecurity .twoSide .left {
+        padding-left:5%;
+        padding-right: 5%;
+    }
+    .fullWidthSecurity .twoSide .left h5 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
+/* Responsive END */
