@@ -1,2 +1,2 @@
 # RoomKu
-this sample my web for schools
+ini buat tugas sekolah, terinspirasi dari Hostinger.co.id
