@@ -1,4 +1,4 @@
 # RoomKu
-ini buat tugas sekolah, terinspirasi dari Hostinger.co.id
+website sederhana, mengikuti tampilan hostinger.co.id
 
 review : https://ibenrm.github.io/RoomKu/
